@@ -8,7 +8,5 @@ const userSchema = new Schema({
   accountStatus: String,
 });
 
-model("User", userSchema);
-
 const User = model("User", userSchema);
 module.exports = User;
